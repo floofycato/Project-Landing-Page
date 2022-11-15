@@ -18,7 +18,9 @@ a {
     text-decoration: none;
 }
 
-.big-wrapper {
+/*nav*/
+
+.nav {
     position:relative;
     padding: 1.7rem 0 2rem;
     width: 100%;
@@ -38,6 +40,7 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 25px;
 }
 
 .logo {
@@ -95,14 +98,19 @@ body main .btn:hover {
     color:black;
 }
 
+/*title page*/
+
 .banner {
+    position:relative;
     height: 100vh;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../Project-Landing-Page/img/paris.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .big-title {
@@ -139,3 +147,6 @@ h2 {
     color: black;
 }
 
+.banner span {
+    font-style: italic;
+}
