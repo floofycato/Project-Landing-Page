@@ -30,6 +30,10 @@ img {
     display: relative;
 }
 
+.text {
+    font-size: 18px;
+}
+    
 
 /*nav*/
 
@@ -117,7 +121,7 @@ ul li {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    background-position: 30% 45%;
 }
 
 .big-title {
@@ -143,11 +147,9 @@ h1 {
     margin-top: 1.5rem;
 }
 
-.text {
+.banner-text {
     margin-top: 3rem;
-    max-width: 50%;
-    width:100%;
-    max-width: 20rem;   
+    max-width: 26rem;
 }
 
 .banner .cta {
@@ -180,27 +182,35 @@ h1 {
 .section-header {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-bottom: 30px;
 }
 
 .img-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-
 }
 
 .recipes-img {
     width: 300px;
-    height: 300px;
-    margin: 1rem;
+    height: 200px;
+    margin-right: 2rem;
     border-radius: 2%;
     background-size: cover;
+}
+.recipes-img:last-child {
+    margin-right: auto;
 }
 
 .img1 {
     background-image: url(../Project-Landing-Page/img/rata.jpg);
+}
+
+.img2 {
+    background-image: url(../Project-Landing-Page/img/sole.jpg);
+    background-position: 25% 75%;
+    background-repeat: no-repeat;
 }
 
 .img3 {
@@ -208,3 +218,7 @@ h1 {
     background-position: center;
 }
 
+.img4 {
+    background-image: url(../Project-Landing-Page/img/cake.jpg);
+    background-position: 25% 35%;
+}
