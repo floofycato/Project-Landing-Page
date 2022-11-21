@@ -332,6 +332,7 @@ h3.text {
     transition: 0.3s;
     background-color: #EEB033;
     cursor: pointer;
+    color: black;
 }
 
 .cta-btn:hover {
