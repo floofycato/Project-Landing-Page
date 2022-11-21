@@ -24,12 +24,6 @@ img {
     transition: 0.3s;
 }
 
-.white-bg {
-    background-color: white;
-    width: 100%;
-    display: relative;
-}
-
 .text {
     font-size: 18px;
 }
@@ -169,42 +163,68 @@ h1 {
     font-style: italic;
 }
 
-/*recipes showcase*/
+/*recipes layout*/
 
-.recipes-container {
-    position: relative;
-    max-width: 81rem;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 3rem;
-}
-
-.section-header {
+.white-wrapper {
+    background-color: white;
     display: flex;
     justify-content: center;
-    margin-top: 70px;
-    margin-bottom: 30px;
+}
+
+.recipes-container {
+    max-width: 81rem;
+    width: 100%;
+}
+
+.recipes-container h2 {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
 }
 
 .img-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display:flex;
+    justify-content: center;
 }
+
+.recipes-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.recipe-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 2rem;
+    gap: 20px;
+}
+.recipe-box:last-child {
+    margin-right: auto;
+}
+
+.img-container {
+    gap: 30px;
+}
+
+
+
+
+/*recipes img*/
 
 .recipes-img {
     width: 300px;
     height: 200px;
-    margin-right: 2rem;
     border-radius: 2%;
     background-size: cover;
-}
-.recipes-img:last-child {
-    margin-right: auto;
 }
 
 .img1 {
     background-image: url(../Project-Landing-Page/img/rata.jpg);
+    display: block;
 }
 
 .img2 {
