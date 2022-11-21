@@ -210,7 +210,9 @@ h1 {
     gap: 30px;
 }
 
-
+h3.text {
+    font-weight: 300;
+}
 
 
 /*recipes img*/
@@ -241,4 +243,16 @@ h1 {
 .img4 {
     background-image: url(../Project-Landing-Page/img/cake.jpg);
     background-position: 25% 35%;
+}
+
+
+/*quote*/
+
+.gray-wrapper {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    max-width: 81rem;
+    width: 100%;
+    text-align: center;
 }
