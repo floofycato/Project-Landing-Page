@@ -356,5 +356,10 @@ h3.text {
     padding: 50px;
 }
 
+a .text {
+    color: white;
+    text-decoration: none;
+}
+
 
 
